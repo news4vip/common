@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6E365B94-FF90-4504-AE73-A807D422F17F}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B29BCB57-C9DB-432A-9015-36396FB43B65}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{6CBA676E-AC08-4205-A460-5944DC7F8453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Collections.Generic.IEnumerableExtensions", "Common.Collections.Generic.IEnumerableExtensions\Common.Collections.Generic.IEnumerableExtensions.csproj", "{4CFD6EE8-623D-49B4-ABE3-5C9230148126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.DateTimeExtensions", "Common.DateTimeExtensions\Common.DateTimeExtensions.csproj", "{875A6F08-5CBC-48E6-A782-29F0469356E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CBA676E-AC08-4205-A460-5944DC7F8453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CBA676E-AC08-4205-A460-5944DC7F8453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CBA676E-AC08-4205-A460-5944DC7F8453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CBA676E-AC08-4205-A460-5944DC7F8453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CFD6EE8-623D-49B4-ABE3-5C9230148126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFD6EE8-623D-49B4-ABE3-5C9230148126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFD6EE8-623D-49B4-ABE3-5C9230148126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFD6EE8-623D-49B4-ABE3-5C9230148126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{875A6F08-5CBC-48E6-A782-29F0469356E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{875A6F08-5CBC-48E6-A782-29F0469356E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{875A6F08-5CBC-48E6-A782-29F0469356E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{875A6F08-5CBC-48E6-A782-29F0469356E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
